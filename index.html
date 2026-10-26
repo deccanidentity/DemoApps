@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="alternate icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeccanIDentity — Mobile App Showcase Portal | iOS & Android Apps</title>
+  <meta name="description"
+    content="Discover innovative mobile applications built for the future by DeccanIDentity. Experience interactive live app previews directly inside your browser across Real Estate, Digital Identity, Enterprise, and AI." />
+  <meta name="keywords" content="DeccanIDentity, Mobile Apps, iOS Apps, Android Apps, React Native, Flutter, EstateMark, TapDID, App Showcase, Mobile Demos" />
+  <meta property="og:title" content="DeccanIDentity — Mobile App Showcase Portal" />
+  <meta property="og:description" content="Discover and interact with high-performance mobile applications built for modern businesses." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/deccan-logo.png" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) { }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

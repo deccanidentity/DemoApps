@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "DeccanIDentity Mobile Apps",
+    "slug": "deccanidentity-mobile-demos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/favicon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "deccanapps",
+    "splash": {
+      "image": "./public/deccan-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#080808"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deccanidentity.demoapps"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/deccan-logo.png",
+        "backgroundColor": "#080808"
+      },
+      "package": "com.deccanidentity.demoapps"
+    },
+    "web": {
+      "favicon": "./public/favicon.svg",
+      "bundler": "vite"
+    },
+    "extra": {
+      "company": "Deccan IDentity Software Pvt. Ltd.",
+      "brandWebsite": "https://deccanidentity.com",
+      "showcaseWebsite": "https://apps.deccanidentity.in"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+// ─── Mobile App Client Testimonials & Enterprise Metrics ─────────────────────
+
+export const clientStats = [
+  { value: '50+', label: 'Mobile Apps Delivered', icon: '📱' },
+  { value: '4.9/5', label: 'Average Client Rating', icon: '⭐' },
+  { value: '100%', label: 'App Store Approval Rate', icon: '🛡️' },
+  { value: 'Sub-Sec', label: 'Launch Performance', icon: '⚡' },
+];
+
+export const clientLogos = [
+  { name: 'Varma Greenfields & Infra', location: 'Hyderabad', category: 'Real Estate', icon: '🏗️' },
+  { name: 'IdentityTrust Global', location: 'Hyderabad', category: 'Digital Identity', icon: '🪪' },
+  { name: 'CarePoint Health Systems', location: 'Gachibowli', category: 'Healthcare', icon: '🏥' },
+  { name: 'Zenith Global Academy', location: 'Secunderabad', category: 'Education', icon: '🎓' },
+  { name: 'HyperQuick Retail & D2C', location: 'Banjara Hills', category: 'E-commerce', icon: '⚡' },
+  { name: 'PrimeLedger SME Cloud', location: 'Ongole', category: 'Finance', icon: '💳' },
+  { name: 'Sri Srinivasa Ventures', location: 'Tirupati', category: 'Real Estate', icon: '🏡' },
+  { name: 'Apex Logistics Tracking', location: 'Medchal', category: 'Enterprise', icon: '🚚' },
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Rajesh Varma',
+    role: 'Managing Partner',
+    company: 'Varma Greenfields & Infra',
+    location: 'Hyderabad',
+    industry: 'Real Estate',
+    industryId: 'real-estate',
+    appName: 'EstateMark Property Discovery',
+    rating: 5,
+    metric: '18 Plot Bookings in Month 1',
+    feedback:
+      'The interactive layout navigator and site visit scheduling app changed our property sales velocity completely. Prospective buyers explore available plots on their phone and book inspection rides in 2 taps. We closed 18 bookings in the first 30 days without high agency retainers.',
+    highlight: '18 plot bookings closed in month 1',
+    initials: 'RV',
+    color: '#C8860A',
+    verified: true,
+  },
+  {
+    id: 2,
+    name: 'Kiranmai Rao',
+    role: 'Chief Technology Officer',
+    company: 'IdentityTrust Solutions',
+    location: 'HITEC City, Hyderabad',
+    industry: 'Digital Identity',
+    industryId: 'digital-identity',
+    appName: 'TapDID Digital Identity Card',
+    rating: 5,
+    metric: 'Over 12,000 Tap Exchanges',
+    feedback:
+      'We replaced traditional paper business cards across our 450-person enterprise with TapDID. The NFC card tap and dynamic QR code generation work instantly on both iOS and Android. Zero app crashes, verified W3C credentials, and flawless executive feedback.',
+    highlight: 'Flawless NFC exchange across 450 executives',
+    initials: 'KR',
+    color: '#3B82F6',
+    verified: true,
+  },
+  {
+    id: 3,
+    name: 'Dr. Sunitha Reddy',
+    role: 'Medical Director',
+    company: 'CarePoint Health Systems',
+    location: 'Gachibowli, Hyderabad',
+    industry: 'Healthcare',
+    industryId: 'healthcare',
+    appName: 'HealthPulse Telemedicine',
+    rating: 5,
+    metric: 'Delivered in 3 Weeks',
+    feedback:
+      'Our hospital patients love the video teleconsultation and prescription archive features. DeccanIDentity delivered a HIPAA and ABDM-compliant React Native mobile suite with incredible UI quality in just 3 weeks.',
+    highlight: 'ABDM compliant mobile health suite',
+    initials: 'SR',
+    color: '#EF4444',
+    verified: true,
+  },
+  {
+    id: 4,
+    name: 'Vikram Choudhary',
+    role: 'Founder & CEO',
+    company: 'QuickCart Hyperlocal',
+    location: 'Madhapur, Hyderabad',
+    industry: 'E-commerce',
+    industryId: 'ecommerce',
+    appName: 'QuickCart Express Delivery',
+    rating: 5,
+    metric: 'Sub-15 Min Delivery Telemetry',
+    feedback:
+      'The rider GPS tracking and 1-swipe UPI checkout flows are buttery smooth at 60 FPS. DeccanIDentity mobile engineers understood our micro-fulfillment dark store routing requirements from day one.',
+    highlight: 'Buttery smooth 60 FPS mobile telemetry',
+    initials: 'VC',
+    color: '#10B981',
+    verified: true,
+  },
+  {
+    id: 5,
+    name: 'M. Ramesh Naidu',
+    role: 'Managing Director',
+    company: 'Naidu Agro Industries & Exports',
+    location: 'Ongole, Andhra Pradesh',
+    industry: 'Finance',
+    industryId: 'finance',
+    appName: 'FinLedger Pro Invoicing',
+    rating: 5,
+    metric: '₹2.4 Cr Invoices Processed',
+    feedback:
+      'Generating WhatsApp GST invoices and tracking supplier payments on Android mobile transformed our distribution operations. The local engineering team in Ongole provided phenomenal hands-on support.',
+    highlight: 'Phenomenal hands-on support in Ongole',
+    initials: 'RN',
+    color: '#6366F1',
+    verified: true,
+  }
+];
